@@ -1,0 +1,36 @@
+### sbt ###
+# Compiled class files and generated artifacts
+target/
+lib_managed/
+src_managed/
+
+# sbt boot and project meta files
+project/target/
+project/project/
+
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+
+### Eclipse ###
+.project
+.classpath
+.settings/
+
+### VS Code ###
+.vscode/
+
+### OS Files ###
+.DS_Store
+Thumbs.db
+
+### Log and temporary files ###
+*.log
+*.tmp
+
+.bloop
+.metals
+.scala-build
+.bsp
