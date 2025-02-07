@@ -3,7 +3,7 @@ sbtPlugin := true
 
 organization := "org.lxol"
 name         := "openapi-diff-plugin"
-version      := "0.1.3"
+version      := "0.1.4"
 scalaVersion := "2.12.20" // Use a Scala 2.12 version since sbt 1.x uses Scala 2.12
 
 libraryDependencies ++= Seq(
