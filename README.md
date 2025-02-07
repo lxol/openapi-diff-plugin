@@ -1,6 +1,6 @@
 # openapi-diff-plugin
 
-**Version:** 0.1.3
+**Version:** 0.1.4
 
 An SBT plugin to compare two OpenAPI specification files and generate a diff report. It leverages the [OpenAPI Diff](https://github.com/OpenAPITools/openapi-diff) library to detect changes between two API specifications, and applies a custom filter to remove descriptions and examples for a cleaner comparison.
 
@@ -20,7 +20,7 @@ An SBT plugin to compare two OpenAPI specification files and generate a diff rep
 To use the plugin in your SBT project, add the following line to your `project/plugins.sbt`:
 
 ```scala
-addSbtPlugin("org.lxol" % "openapi-diff-plugin" % "0.1.3")
+addSbtPlugin("org.lxol" % "openapi-diff-plugin" % "0.1.4")
 ```
 
 ## Usage
